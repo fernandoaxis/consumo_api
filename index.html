@@ -7,8 +7,32 @@
 </head>
 <body>
     <h1>axios</h1>
+    <!--5 - Post-->
+    <h2>Insira um novo post: </h2> 
+    <form id="post-form">
+        <div>
+            <input type="text" id="title" placeholder="Digite o titulo">
+        </div>
+        <div>
+            <textarea id="body"></textarea>
+        </div>
+        <input type="submit" value="Criar post">
+    </form>
+
+
+
+
+
     <div id="user-container"></div> <!-- Container onde os dados serão exibidos -->
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-    <script src="js/script.js"></script> <!-- Referência ao seu arquivo JS -->
+    <!--7 - Custom Instance -->
+    <script src="js/custom.js"></script>
+    <!--6 - Global Instace -->
+    <!--<script src="js/global.js"></script>-->
+    <script src="js/interceptor.js"></script>
+    <script src="js/script.js"></script> 
+
+
+
 </body>
 </html>
